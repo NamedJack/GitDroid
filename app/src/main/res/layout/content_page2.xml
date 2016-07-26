@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="@dimen/dp_120"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bubble1"
+        android:id="@+id/iv_page2_image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_below="@id/iv_page2_image1"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bubble2"
+        android:id="@+id/iv_page2_image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_below="@id/iv_page2_image2"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bubble3"
+        android:id="@+id/iv_page2_image3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_140">
+
+        <TextView
+            android:layout_width="@dimen/dp_300"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/tips_introduction"
+            android:id="@+id/tv_page2_text"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/tips_and_tricks"
+            android:textStyle="bold"
+            android:id="@+id/tvTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/tv_page2_text"
+            android:layout_marginBottom="@dimen/dp_3"/>
+    </RelativeLayout>
+
+</RelativeLayout>
