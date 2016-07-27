@@ -12,4 +12,8 @@
     <dimen name="dp_300">300dp</dimen>
     <dimen name="dp_10">10dp</dimen>
     <dimen name="dp_3">3dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="sp_20">20sp</dimen>
 </resources>

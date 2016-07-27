@@ -117,10 +117,10 @@ public class LeadFragment extends Fragment {
         public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
             if(position == 0){
                 ivPhoneFont.setAlpha(positionOffset);
-                float scale = 0.3f+positionOffset*0.7f;
+                float scale = 0.3f+positionOffset*0.5f;
                 layoutPhone.setScaleX(scale);
                 layoutPhone.setScaleY(scale);
-                int scroll = (int) ((positionOffset-1)*360);
+                int scroll = (int) (-(positionOffset-1)*100);
                 layoutPhone.setScrollX(scroll);
                 return;
             }

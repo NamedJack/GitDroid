@@ -10,16 +10,18 @@ import com.zx.gitdroid.R;
 /**
  * Created by keepRun on 2016/7/26.
  */
-public class LeadPager0 extends FrameLayout{
-    private void init(){
-        LayoutInflater.from(getContext()).inflate(R.layout.content_page0,this,true);
+public class LeadPager0 extends FrameLayout {
+
+    private void init() {
+        LayoutInflater.from(getContext()).inflate(R.layout.content_page0, this, true);
     }
+
     public LeadPager0(Context context) {
-        this(context,null);
+        this(context, null);
     }
 
     public LeadPager0(Context context, AttributeSet attrs) {
-        this(context, attrs,0);
+        this(context, attrs, 0);
     }
 
     public LeadPager0(Context context, AttributeSet attrs, int defStyleAttr) {
